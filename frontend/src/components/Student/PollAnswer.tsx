@@ -36,15 +36,15 @@ const PollAnswer: React.FC<PollAnswerProps> = ({
     onSubmitAnswer(selectedOption);
   };
 
-  const getTimerColor = () => {
-    if (timeRemaining > 30) return '#4CAF50';
-    if (timeRemaining > 10) return '#ff9800';
-    return '#f44336';
-  };
+  // const getTimerColor = () => {
+  //   if (timeRemaining > 30) return '#4CAF50';
+  //   if (timeRemaining > 10) return '#ff9800';
+  //   return '#f44336';
+  // };
 
-  const getProgressPercentage = () => {
-    return (timeRemaining / poll.timeLimit) * 100;
-  };
+  // const getProgressPercentage = () => {
+  //   return (timeRemaining / poll.timeLimit) * 100;
+  // };
 
   if (hasAnswered) {
     return (

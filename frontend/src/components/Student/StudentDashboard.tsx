@@ -8,7 +8,7 @@ import {
   setStudentInfo,
   setConnectionStatus,
   setCurrentPoll,
-  setPollResults,
+  // setPollResults,
   addChatMessage,
   setChatHistory,
   setSelectedAnswer,
@@ -29,13 +29,13 @@ const StudentDashboard: React.FC = () => {
   const [isJoined, setIsJoined] = useState(false);
   
   const {
-    studentName,
-    studentId,
+    // studentName,
+    // studentId,
     currentPoll,
     selectedAnswer,
     showResults,
     timeRemaining,
-    isConnected,
+    // isConnected,
     showChat,
   } = useSelector((state: RootState) => state.app);
 

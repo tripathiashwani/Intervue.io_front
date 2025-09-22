@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import { setPollHistory } from '../../store/appSlice';
-import { socketService } from '../../services/socketService';
+// import { socketService } from '../../services/socketService';
 import { PollHistory as PollHistoryType } from '../../types';
 import './PollHistory.css';
 

@@ -7,9 +7,9 @@ const StudentResults: React.FC = () => {
   const { 
     currentPoll, 
     pollResults, 
-    selectedAnswer, 
+    // selectedAnswer, 
     totalAnswers, 
-    studentsCount,
+    // studentsCount,
     timeRemaining 
   } = useSelector((state: RootState) => state.app);
 
